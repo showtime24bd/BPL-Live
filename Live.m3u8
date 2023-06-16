@@ -1,0 +1,32 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="channel1" tvg-name="Channel 1" tvg-logo="channel1.png" group-title="Group 1",Channel 1
+
+http://50.7.237.11:8080/STARSPORTS2HD/tracks-v1a1/index.m3u88
+
+#EXTXMLTV:https://epg.pw/api/epg.xml?channel_id=11519
+
+#EXTINF:-1 tvg-id="channel2" tvg-name="Channel 2" tvg-logo="channel2.png" group-title="Group 1",Channel 2
+
+http://example.com/channel2/stream.m3u8
+
+#EXTXMLTV:url-to-epg-for-channel2.xml
+
+#EXTINF:-1 tvg-id="channel3" tvg-name="Channel 3" tvg-logo="channel3.png" group-title="Group 2",Channel 3
+
+http://example.com/channel3/stream.m3u8
+
+#EXTXMLTV:url-to-epg-for-channel3.xml
+
+#EXTINF:-1 tvg-id="channel4" tvg-name="Channel 4" tvg-logo="channel4.png" group-title="Group 2",Channel 4
+
+http://example.com/channel4/stream.m3u8
+
+#EXTXMLTV:url-to-epg-for-channel4.xml
+
+#EXTINF:-1 tvg-id="channel5" tvg-name="Channel 5" tvg-logo="channel5.png" group-title="Group 2",Channel 5
+
+http://example.com/channel5/stream.m3u8
+
+#EXTXMLTV:url-to-epg-for-channel5.xml
+
